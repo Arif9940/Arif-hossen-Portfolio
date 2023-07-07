@@ -1,0 +1,23 @@
+.img-container {
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .img-container img {
+    height: auto;
+    transition: transform 2s ease-in;
+  }
+  
+  .img-container:hover img {
+    transform: translateY(-50%);
+    animation: ok 3s;
+  }
+  
+  @keyframes ok {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-80%);
+    }
+  }

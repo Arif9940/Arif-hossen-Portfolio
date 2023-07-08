@@ -72,7 +72,7 @@ const Banner = () => {
               <div>
                 <button className="text-xl px-3 py-1 mb-6 rounded bg-word text-bg font-medium hover:text-word hover:bg-bg transition-all duration-500">
                   <a
-                    href="../../../../public/resume.pdf"
+                    href="https://drive.google.com/uc?export=download&id=13FKX-lpZe9B3d2fermwpi74YRjlDbuB0"
                     download
                   >
                     Download My Resume
